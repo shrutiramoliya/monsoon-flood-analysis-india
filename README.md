@@ -30,3 +30,13 @@ Research project studying how antecedent rainfall, ENSO patterns, monsoon onset 
 - ReliefWeb
 - EM-DAT
 - NASA Giovanni
+
+## Current Stage
+
+Preliminary climate-informed analytical dataset construction completed.
+
+Next phase includes:
+- Exploratory Data Analysis (EDA)
+- Correlation analysis
+- Visualization
+- Machine Learning modeling
