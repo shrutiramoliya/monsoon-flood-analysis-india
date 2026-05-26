@@ -101,14 +101,15 @@ Climate and relationship analysis exploring ENSO phases, antecedent rainfall, mo
 
 ## Repository Structure
 
-```text
 monsoon-flood-analysis-india/
 │
 ├── data/
 │   └── India_Flood_Dataset_Final.xlsx
 │
 ├── notebooks/
-│   └── eda.ipynb
+│   ├── eda.ipynb
+│   ├── advanced_analysis.ipynb
+│   └── spatial_analysis.ipynb
 │
 ├── requirements.txt
 │
