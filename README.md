@@ -1,42 +1,107 @@
-# Urban Flood Susceptibility Research in India
+# Urban Flood Frequency Analysis in India (2010–2025)
 
-Research project studying how antecedent rainfall, ENSO patterns, monsoon onset timing, and soil moisture influence urban flood occurrences in India.
+## Project Overview
+
+This project focuses on the exploratory analysis of urban flood events in India between 2010 and 2025. The study aims to understand temporal, spatial, and climate-related flood patterns using a structured flood-event dataset and exploratory data analysis (EDA) techniques.
+
+The project investigates whether the frequency of urban floods in India has increased over time and examines possible relationships with climate and hydrological factors.
+
+---
 
 ## Objectives
-- Analyze monsoon onset patterns across urban regions in India
-- Study relationships between antecedent rainfall and flood events
-- Examine ENSO, El Nino, and La Nina influences on flooding
-- Develop a future machine learning-based flood susceptibility framework
 
-## Variables
-- State
-- City
-- Latitude / Longitude
-- Kerala Monsoon Onset Date
-- Local Monsoon Onset Date
-- ENSO
-- El Nino
-- La Nina
-- Antecedent Rainfall
-- Soil Moisture
-- Flood Occurrence
+The main objectives of this project are:
 
-## Time Range
-2010–2025
+- Analyze year-wise urban flood frequency trends in India
+- Identify the most flood-affected states and cities
+- Study month-wise and seasonal flood occurrence patterns
+- Examine flood type distribution
+- Explore possible climate influences such as ENSO phases
+- Analyze antecedent rainfall characteristics associated with flood events
+
+---
+
+## Dataset Description
+
+The dataset contains manually curated urban flood event records from 2010–2025 across major Indian cities and states.
+
+### Dataset Variables
+
+- DATE
+- YEAR
+- MONTH
+- STATE
+- CITY
+- LATITUDE
+- LONGITUDE
+- FLOOD_EVENT_NAME
+- FLOOD_TYPE
+- KERALA_MONSOON_ONSET
+- LOCAL_MONSOON_ONSET
+- DAYS_AFTER_KERALA_ONSET
+- ANTECEDENT_RAINFALL_MM
+- EL_NINO
+- LA_NINA
+- ENSO_PHASE
+- SOIL_MOISTURE
+- DATA_SOURCE
+
+---
 
 ## Data Sources
-- IMD
-- NOAA
-- ReliefWeb
-- EM-DAT
-- NASA Giovanni
 
-## Current Stage
+The dataset was compiled using multiple authoritative and publicly available sources including:
 
-Preliminary climate-informed analytical dataset construction completed.
+- India Meteorological Department (IMD)
+- NOAA Climate Prediction Center
+- National Disaster Management Authority (NDMA)
+- ISRO Bhuvan / NRSC
+- Disaster reports and verified news archives
+- LatLong.net
 
-Next phase includes:
-- Exploratory Data Analysis (EDA)
-- Correlation analysis
-- Visualization
-- Machine Learning modeling
+A detailed Sources sheet is included inside the dataset workbook for transparency and reproducibility.
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+The EDA notebook includes:
+
+- Dataset overview and inspection
+- Missing value analysis
+- Year-wise flood frequency analysis
+- State-wise flood distribution
+- City-wise flood distribution
+- Month-wise flood occurrence analysis
+- Flood type distribution
+- ENSO phase analysis
+- Antecedent rainfall analysis
+- Data visualization and interpretation
+
+---
+
+## Tools and Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- VS Code
+- GitHub
+
+---
+
+## Repository Structure
+
+```text
+monsoon-flood-analysis-india/
+│
+├── data/
+│   └── India_Flood_Dataset_Final.xlsx
+│
+├── notebooks/
+│   └── eda.ipynb
+│
+├── requirements.txt
+│
+└── README.md
