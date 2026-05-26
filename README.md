@@ -89,6 +89,14 @@ The EDA notebook includes:
 - VS Code
 - GitHub
 
+## Notebooks
+
+### eda.ipynb
+Exploratory analysis of urban flood frequency trends, affected regions, flood distribution, and temporal patterns.
+
+### advanced_analysis.ipynb
+Climate and relationship analysis exploring ENSO phases, antecedent rainfall, monsoon timing, and flood vulnerability patterns.
+
 ---
 
 ## Repository Structure
